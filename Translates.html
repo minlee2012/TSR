@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Translates, WebGL</title>
+	<meta charset="utf-8" />
+    <script src="webgl-utils.js"></script>
+    <script src="webgl-debug.js"></script>
+    <script src="cuon-utils.js"></script>
+    <script src="cuon-matrix.js"></script>
+    <script src="Translates.js"></script>
+</head>
+<body onload="main()">
+<p>
+    <font size = "20" color = "#00008b">MIN LEE</font>
+</p>
+    <canvas id="webgl" width="800" height="800">
+        Browser does not support canvas -- webgl
+    </canvas>
+    <p>
+        <button type="button" onclick="speedUp()">Speed Up</button>
+        <button type="button" onclick="slowDown()">Slow Down</button>
+        <button type="button" onclick="changeDirection()">Change Direction</button>
+        <button type="button" onclick="changeSize1plus()">Change Box 1 +</button>
+        <button type="button" onclick="changeSize1minus()">Change Box 1 -</button>
+        <button type="button" onclick="changeSize2plus()">Change Pyramid +</button>
+        <button type="button" onclick="changeSize2minus()">Change Pyramid -</button>
+        <button type="button" onclick="changeSize3plus()">Change Box 2 +</button>
+        <button type="button" onclick="changeSize3minus()">Change Box 2 -</button>
+        <button type="button" onclick="changeSize4plus()">Change Box 3 +</button>
+        <button type="button" onclick="changeSize4minus()">Change Box 3 -</button>
+    </p>
+</body>
+</html>
